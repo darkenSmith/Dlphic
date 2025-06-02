@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
-use app\Http\Controllers\Controller;
+use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\RedirectResponse;
