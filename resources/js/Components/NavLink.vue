@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed top-0 w-full z-50 bg-black text-white shadow-md px-6 py-4 border-b border-white">
+  <nav class="flex justify-between items-center py-2 px-4 md:px-12 z-10 relative">
     <div class="flex justify-between items-center w-full">
       <!-- Logo -->
       <Link href="/" class="flex items-center space-x-2">
@@ -49,7 +49,7 @@ const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
 };
 
-const linkClasses = 'block text-white hover:text-green-400 transition duration-200 font-bold';
+const linkClasses = 'block text-yellow-400  hover:text-green-400 transition duration-200 font-bold';
 </script>
 
 <style scoped>
